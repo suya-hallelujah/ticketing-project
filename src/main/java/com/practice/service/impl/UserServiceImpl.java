@@ -2,9 +2,11 @@ package com.practice.service.impl;
 
 import com.practice.dto.UserDTO;
 import com.practice.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class UserServiceImpl extends AbstractMapService<UserDTO, String> implements UserService {
 
     @Override
